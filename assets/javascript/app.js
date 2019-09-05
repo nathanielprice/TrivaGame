@@ -82,7 +82,7 @@ $(document).on('click', '.choice', function() {
 
     } else {
         lost++;
-        console.log('You Loose!');
+        console.log('You Lose!');
         preloadImage ('lost');
         setTimeout(nextQuestion, 3 * 1000)
 
